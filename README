@@ -1,0 +1,8 @@
+TRUNK-BASED
+
+Una unica rama master de la cual parten los desarrolladores y crean ramas para sus caracteristicas, cuando su rama esta completa y ha sido probada se envia un MR a la rama principal (master)
+
+1- Crear una rama de ciclo de vida corto partiendo del master
+2- Realice los cambios y haga los commits a esta rama. Se debe probar de manera exhaustiva localmente y el servidor de CI.
+3- Cuando esté listo para hacer un merge, actualice su rama con los cambios de la rama master para evitar conflictos y agilizar la integración.
+4- Haga un MR de su rama al tronco principal.
